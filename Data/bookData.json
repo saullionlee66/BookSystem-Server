@@ -1,67 +1,22 @@
 [
   {
-    "name": "Be a man",
-    "id": "1005 ",
-    "price": "1.9"
-  },
-  {
-    "name": "Hey boy",
-    "id": "1002",
-    "price": "1"
-  },
-  {
-    "name": "Highway",
-    "id": "1003",
-    "price": "1.2"
-  },
-  {
-    "name": "Highway",
-    "id": "1004",
-    "price": "1.2"
-  },
-  {
-    "name": "Your way",
+    "name": "The Love & Lemons Cookbook",
     "id": "1001",
-    "price": "1.2"
+    "price": "18.99"
   },
   {
-    "name": "No waa",
-    "id": "1006",
-    "price": "1.9"
+    "name": "Grant Writing for Dummies",
+    "id": "1003",
+    "price": "45.99"
   },
   {
-    "name": "Hello world",
-    "id": "1007",
-    "price": "1.9"
+    "name": "18 Minutes",
+    "id": "1004",
+    "price": "10.99"
   },
   {
-    "name": "don't way",
-    "id": "1008",
-    "price": "100"
-  },
-  {
-    "name": "Give away",
-    "id": "1009",
-    "price": "109"
-  },
-  {
-    "name": "Hey Jude",
-    "id": "1010",
-    "price": "100"
-  },
-  {
-    "name": "Hello",
-    "id": "1011",
-    "price": "10"
-  },
-  {
-    "name": "I love",
-    "id": "1111",
-    "price": "111"
-  },
-  {
-    "name": "Happy Together",
-    "id": "1132",
-    "price": "111"
+    "name": "Turn A Blind Eye",
+    "id": "1005",
+    "price": "23.99"
   }
 ]
