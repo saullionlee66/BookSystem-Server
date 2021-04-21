@@ -3,7 +3,7 @@ const app = express();
 const PORT = 5000;
 const cors = require('cors');
 const fs = require('fs');
-var bookData = JSON.parse(fs.readFileSync('../Data/bookData.json',err=>{console.log(err)}))
+var bookData = JSON.parse(fs.readFileSync('./Data/bookData.json',err=>{console.log(err)}))
 
 app.use(express.urlencoded({extended:false}));
 app.use(express.json());
@@ -23,7 +23,7 @@ app.post('/data', (req,res)=>{
     }
     bookData.push(newData);
     console.log(bookData)
-    fs.writeFile('../Data/bookData.json',JSON.stringify(bookData,null,2),err=>{
+    fs.writeFile('./Data/bookData.json',JSON.stringify(bookData,null,2),err=>{
         console.log(err);
     })
     res.send("ok")
@@ -39,7 +39,7 @@ app.put('/update', (req,res)=>{
             book.name = name;
         }
     })
-    fs.writeFile('../Data/bookData.json',JSON.stringify(bookData,null,2),err=>{
+    fs.writeFile('./Data/bookData.json',JSON.stringify(bookData,null,2),err=>{
         console.log(err);
     })
     res.send("ok")
@@ -55,7 +55,7 @@ app.delete('/delete', (req,res)=>{
             bookData.splice(i,1);
     }
     console.log(bookData);
-    fs.writeFile('../Data/bookData.json',JSON.stringify(bookData,null,2),err=>{
+    fs.writeFile('./Data/bookData.json',JSON.stringify(bookData,null,2),err=>{
         console.log(err);
     })
     res.send("ok")
